@@ -8,7 +8,7 @@ export function Layout({ children, page='Init' }) {
         <title>{`Quiosco/${page}`}</title>
         <meta name='description' content='Quiosco' />
       </Head>
-      <div className='md:flex m-5'>
+      <div className='md:flex m-2'>
         <aside className='md:w-4/12 xl:w-1/4 2xl:w-1/5'>
           <Sidebar />
         </aside>
